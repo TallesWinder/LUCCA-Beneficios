@@ -1,9 +1,13 @@
 .container {
     width: 80%;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
     margin: 30px auto;
+}
+
+.title {
+    margin-bottom: -30px;
 }
 
 .form-image {
@@ -96,7 +100,7 @@
 }
 
 .input-box input:focus-visible {
-    outline: 1px solid #6c63ff;
+    outline: 1px solid #EE670B;
 }
 
 .input-box label,
@@ -110,7 +114,7 @@
     color: #000000be;
 }
 
-.gender-group {
+/* .gender-group {
     display: flex;
     justify-content: space-between;
     margin-top: 0.62rem;
@@ -130,21 +134,21 @@
     font-size: 0.81rem;
     font-weight: 600;
     color: #000000c0;
-}
+} */
 
 .continue-button button {
     width: 100%;
-    margin-top: 2.5rem;
+    margin-top: 10px;
     border: none;
-    background-color: #6c63ff;
+    background-color: #F4C303;
     padding: 0.62rem;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.continue-button button:hover {
-    background-color: #6b63fff1;
-}
+/* .continue-button button:hover {
+    background-color: #EE670B;
+} */
 
 .continue-button button a {
     text-decoration: none;
