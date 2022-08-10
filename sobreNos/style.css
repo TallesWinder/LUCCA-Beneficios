@@ -4,16 +4,25 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+body {
+ background: url(/img/pexels-bali-demiri-3415148.jpg);
+ background-size:cover;
+}
+
 header{
     background-color: #000000;
 }
+
 li{
     list-style: none;
 }
+
 a{
     color:#EE670B;
     text-decoration: none;
 }
+
 .navbar{
     min-height: 70px;
     display: flex;
@@ -21,21 +30,26 @@ a{
     justify-content: space-between;
     padding: 0 34px;
 }
+
 .logo{
     width: 20%;
 }
+
 .nav-menu{
     display: flex;
     align-items: center;
     gap: 60px;
 }
+
 .nav-link{
     transition: 0.5s ease;
     font-size: 14px;
 }
+
 .nav-link:hover{
     color: #F4C303;
 }
+
 .hamburguer{
     display: none;
     cursor: pointer;
@@ -56,11 +70,25 @@ a{
 }
 
 .sobreNos {
-    background-color: aqua;
     height: 600px;
+    margin-top: 60px;
+    padding: 10px;
 }
 
+.sobre {
+    margin-bottom: 30px;
+    color: #FFF;
+}
 
+.historia {
+    line-height: 30px;
+    color: #FFF;
+}
+
+.corporativo{
+    width: 800px;
+    border-radius: 30px;
+}
 
 @media (max-width:768px){
    .hamburguer{

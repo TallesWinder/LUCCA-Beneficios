@@ -6,8 +6,8 @@
 }
 
 body {
-    background: url(/img/pexels-bali-demiri-3415148.jpg);
-    background-size: cover;
+ background: url(/img/pexels-bali-demiri-3415148.jpg);
+ background-size:cover;
 }
 
 header{
@@ -54,7 +54,6 @@ a{
     display: none;
     cursor: pointer;
 }
-
 .bar{
     display: block;
     width: 28px;
@@ -63,6 +62,34 @@ a{
     margin: 5px auto;
     background: #F4C303;
     transition: all 0.3s ease-in-out;
+}
+
+.secao {
+   display: flex; 
+   justify-content: space-around;
+}
+
+.sobreNos {
+    height: 600px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 20px;
+    width: 500px;
+    display: flexbox;
+}
+
+.sobre {
+    color: #FFF;
+}
+
+.historia {
+    line-height: 30px;
+    color: #FFF;
+}
+
+.corporativo{
+    width: 400px;
+    border-radius: 30px;
 }
 
 @media (max-width:768px){
