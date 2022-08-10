@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUCCA Benefícios</title>
+
+    <link rel="stylesheet" href="/cadastro/style.css">
+    <link rel="stylesheet" href="/css/forms.css">
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="/css/footer.css">
+</head>
+
+<body>
+
+    <header>
+        <!--MENU DE NAVEGAÇÃO-->
+        <nav class="navbar">
+            <a href="#">
+                <img class="logo" src="/img/2.png" alt="logo">
+            </a>
+
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">SOBRE NÓS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">PRODUTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">CADASTRO</a>
+                </li>
+            </ul>
+
+            <div class="hamburguer">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!--FORMULÁRIO-->
+        <div class="container">
+            <div class="form-image">
+                <img src="/img/2.png" alt="">
+            </div>
+            <div class="form">
+
+                <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+                    <input type=hidden name="oid" value="00D8V0000028tfe">
+                    <input type=hidden name="retURL" value="http://127.0.0.1:61671/html/index.html#">
+
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Cadastre-se</h1>
+                        </div>
+                    </div>
+
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="first_name">Primeiro Nome</label>
+                            <input id="first_name" maxlength="40" name="first_name" size="20" type="text"
+                                placeholder="Digite seu primeiro nome" required />
+                        </div>
+
+                        <div class="input-box">
+                            <label for="last_name">Sobrenome</label>
+                            <input id="last_name" maxlength="80" name="last_name" size="20" type="text"
+                                placeholder="Digite seu sobrenome" required />
+                        </div>
+
+                        <div class="input-box">
+                            <label for="email">Email</label>
+                            <input id="email" maxlength="80" name="email" size="20" type="text"
+                                placeholder="Digite seu e-mail" required />
+                        </div>
+
+                        <div class="input-box">
+                            <label for="mobile">Celular</label><input id="mobile" maxlength="40" name="mobile" size="20"
+                                type="text" placeholder="(xx) xxxx-xxxx" required />
+                        </div>
+
+                        <div class="input-box">
+                            <label for="company">Empresa</label><input id="company" maxlength="40" name="company"
+                                size="20" type="text" placeholder="Digite o nome da empresa" required />
+                        </div>
+
+                        <div class="input-box">
+                            <label for="city">Cidade</label><input id="city" maxlength="40" name="city" size="20"
+                                type="text" placeholder="Digite sua cidade" require />
+                        </div>
+
+                        <div class="input-box">
+                            <label for="state">Estado/província</label>
+                            <input id="state" maxlength="20" name="state" size="20" type="text"
+                                placeholder="Digite seu estado/província" require />
+                        </div>
+
+                        <div class="input-box">
+                            <label for="00N8V00000Lprk3">CNPJ</label>
+                            <input id="00N8V00000Lprk3" maxlength="255" name="00N8V00000Lprk3" size="20" type="text"
+                                placeholder="Digite seu CNPJ" required />
+                        </div>
+
+                        <div class="input-box">
+                            <label for="00N8V00000LprWl">CPF</label>
+                            <input id="00N8V00000LprWl" name="00N8V00000LprWl" size="20" type="text"
+                                placeholder="Digite seu CPF" required />
+                        </div>
+
+                        <div class="input-box">
+                            <label for="00N8V00000Lv2ni">Tipo De Cartão</label>
+                            <select id="00N8V00000Lv2ni" name="00N8V00000Lv2ni" title="Tipo de Cartão" required>
+                                <option value="">-- Nenhum --</option>
+                                <option value="Luccax Vip">Luccax Vip</option>
+                                <option value="Luccax Premium">Luccax Premium</option>
+                                <option value="Luccax Platinum">Luccax Platinum</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="continue-button">
+                        <button type="submit" name="submit">Cadastrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="containerPrincipal">
+            <div class="div1">
+                <h2 class="titulo">SOBRE NÓS</h2>
+                <p class="paragrafo">Somos uma empresa que traz soluções a outras empresas, prezamos pela organização e praticidade no quesito empregadores e empregados. Melhoramos o dia a dia e a qualidade de vida de cada pessoa que servimos.</p>
+            </div>
+
+            <div class="div2">
+                <h2 class="titulo">ENDEREÇO</h2>
+                <p class="paragrafo">RUA CHAVES 1022</p>
+                <p class="paragrafo">BARUERI -SP</p>
+                <p class="paragrafo">(11) 99460-7915</p>
+            </div>
+
+            <div class="div3">
+                <h2 class="titulo">REDES SOCIAIS</h2>
+                <a href="/"><img class="iconesSociais" src="/img/facebook.png" alt=""></a>
+                <a href="/"><img class="iconesSociais" src="/img/instagram (1).png" alt=""></a>
+                <a href="/"><img class="iconesSociais" src="/img/linkedin.png" alt=""></a>
+                <a href="/"><img class="iconesSociais" src="/img/twitter.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="/js/script.js"></script>
+
+</body>
+
+</html>

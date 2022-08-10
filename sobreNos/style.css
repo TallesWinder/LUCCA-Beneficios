@@ -49,6 +49,19 @@ a{
     background: #F4C303;
     transition: all 0.3s ease-in-out;
 }
+
+.secao {
+   display: flex; 
+   justify-content: space-between;
+}
+
+.sobreNos {
+    background-color: aqua;
+    height: 600px;
+}
+
+
+
 @media (max-width:768px){
    .hamburguer{
        display: block;
@@ -82,4 +95,9 @@ a{
         left: 0;
     }
 
+    header {
+        position: fixed;
+        margin-top: -250px;
+        width: 100%;
+    }
 }
