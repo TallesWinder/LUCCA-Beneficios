@@ -6,7 +6,7 @@
 }
 
 body {
- background: url(/img/pexels-bali-demiri-3415148.jpg);
+ background: url(/img/pexels-max-vakhtbovych-7511750.jpg);
  background-size:cover;
 }
 
@@ -67,6 +67,7 @@ a{
 .secao {
    display: flex; 
    justify-content: space-around;
+   flex-wrap: wrap;
 }
 
 .sobreNos {
@@ -79,18 +80,21 @@ a{
 }
 
 .sobre {
-    color: #FFF;
+    color: #000;
+    margin-bottom: 20px;
 }
 
 .historia {
     line-height: 30px;
-    color: #FFF;
+    color: #000;
 }
 
 .corporativo{
-    width: 400px;
-    border-radius: 30px;
+    width: 200px;
+    border-radius: 10px;
 }
+
+
 
 @media (max-width:768px){
    .hamburguer{
@@ -127,7 +131,23 @@ a{
 
     header {
         position: fixed;
-        margin-top: -250px;
         width: 100%;
+        margin-top: -220px;
+    }
+
+    .secao {
+        margin-top: 220px;
+     }
+
+     /* .sobreNos {
+        
+    } */
+
+    .corporativo{
+        margin-left: 22px;
+    }
+
+    .sobre {
+       margin-bottom: 20px;
     }
 }
