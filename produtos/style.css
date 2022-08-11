@@ -8,6 +8,7 @@
 body {
  background: url(/img/pexels-max-vakhtbovych-7511750.jpg);
  background-size:cover;
+
 }
 
 header{
@@ -71,12 +72,12 @@ a{
 }
 
 .sobreNos {
-    height: 600px;
+    height: 500px;
     margin-top: 60px;
     margin-bottom: 60px;
     padding: 20px;
     width: 500px;
-    display: flexbox;
+    margin-left: 30px;
 }
 
 .sobre {
@@ -90,8 +91,36 @@ a{
 }
 
 .corporativo{
-    width: 200px;
+    width: 400px;
     border-radius: 10px;
+}
+
+/*CARROSEL*/
+
+.cartao {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.carrosel1 {
+    width: 300px;
+    height: 533.33px;
+    overflow: hidden;
+    /* margin: 50px auto; */
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+.carrosel1 .carrosel2 {
+    display: flex;
+    list-style: none;
+    width: 900px;
+    height: 533.33px; 
+}
+
+.carrosel1 .carrosel3 {
+    position:relative;
+    animation: slide 15s infinite ease-out;
 }
 
 
@@ -139,10 +168,6 @@ a{
         margin-top: 220px;
      }
 
-     /* .sobreNos {
-        
-    } */
-
     .corporativo{
         margin-left: 22px;
     }
@@ -150,4 +175,19 @@ a{
     .sobre {
        margin-bottom: 20px;
     }
+}
+
+/*CARROSEL*/
+
+@keyframes slide {
+    0% {left: 0px;}
+    20%{left: 0px;}
+
+    30%{left: -300px;}
+    50%{left: -300px;}
+
+    60%{left: -600px;}
+    90%{left: -600px;}
+
+    100%{left: 0px;}
 }
