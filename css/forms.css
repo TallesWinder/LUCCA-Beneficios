@@ -10,6 +10,10 @@
     margin-bottom: -30px;
 }
 
+.tipoCartao {
+    margin-right: 60px;
+}
+
 .form-image {
     width: 50%;
     display: flex;
@@ -173,7 +177,6 @@
     .container {
         width: 90%;
         height: auto;
-        margin-top: 250px;
     }
     .input-group {
         flex-direction: column;
