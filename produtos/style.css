@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style: none;
+    text-decoration: none;
 }
 
 body {
- background: url(/img/vecteezy_abstract-white-geometric.jpg);
+ background: url(/img/the-polygon-1562743.jpg);
  background-size:cover;
 
 }
@@ -15,13 +20,9 @@ header{
     background-color: #000000;
 }
 
-li{
-    list-style: none;
-}
 
 a{
     color:#EE670B;
-    text-decoration: none;
 }
 
 .navbar{
@@ -33,22 +34,41 @@ a{
 }
 
 .logo{
-    width: 60%;
+    width: 400px;
+    margin-top: 5px;
 }
 
 .nav-menu{
     display: flex;
     align-items: center;
     gap: 60px;
+    margin-top: -4px;
 }
 
 .nav-link{
     transition: 0.5s ease;
-    font-size: 14px;
+    font-size: 17px;
 }
 
 .nav-link:hover{
     color: #F4C303;
+}
+
+.nav-link2 {
+    background-color:#EE670B;
+    padding: 8px;
+    color: #F4C303;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.6s ease-in-out;
+    font-size: 17px;
+}
+
+.nav-link2:hover {
+    background-color: #F4C303;
+    color: #EE670B;
+    transition: 0.9s;
+    transition: 0.6s ease-in-out;
 }
 
 .hamburguer{
@@ -83,11 +103,13 @@ a{
 .sobre {
     color: #000;
     margin-bottom: 20px;
+    font-size: 30PX;
 }
 
 .historia {
     line-height: 30px;
     color: #000;
+    font-size: 18px;
 }
 
 .corporativo{
@@ -127,6 +149,7 @@ a{
 @media (max-width:768px){
    .hamburguer{
        display: block;
+       margin-top: 9px;
    }
    .hamburguer.active .bar:nth-child(2){
        opacity: 0;
@@ -140,7 +163,7 @@ a{
     .nav-menu{
         position: fixed;
         left: -100%;
-        top: 40px;
+        top: 56px;
         gap: 0;
         border-radius: 0 0 20px 20px;
         background-color: #000000;
@@ -150,9 +173,11 @@ a{
         transition: 0.3s;
         margin-top: 30px;
     }
+
     .nav-item{
         margin: 16px 0;
     }
+
     .nav-menu.active{
         left: 0;
     }
@@ -160,11 +185,11 @@ a{
     header {
         position: fixed;
         width: 100%;
-        margin-top: -220px;
+        margin-top: -243px;
     }
 
     .secao {
-        margin-top: 220px;
+        margin-top: 240px;
      }
 
     .corporativo{
@@ -175,8 +200,12 @@ a{
        margin-bottom: 20px;
     }
 
+    .sobreNos {
+        margin-bottom: -100px;
+    }
+
     .carrosel1 {
-       margin-bottom: 30px;
+       display: none;
     }
 
    
