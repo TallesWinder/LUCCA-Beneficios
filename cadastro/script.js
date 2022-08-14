@@ -24,7 +24,7 @@ const cadastrar = () => {
 
     validaCnpj = validaCnpj.replace(/[^\d]+/g,'');
  
-    if(validaCnpj == '' || validaCnpj.length < 14) alert('CNPJ em branco ou menor que 14 números!');
+    if(validaCnpj == '' || validaCnpj.length < 14) alert('CNPJ em branco ou menor que 14 dígitos!');
     
     // Elimina CNPJs invalidos conhecidos
     if (validaCnpj == "00000000000000" || 
