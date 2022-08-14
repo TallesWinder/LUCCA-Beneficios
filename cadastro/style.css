@@ -272,7 +272,7 @@ footer {
 @media (max-width:768px){
     .hamburguer{
         display: block;
-        margin-top: -4px;
+        margin-top: -3px;
     }
     .hamburguer.active .bar:nth-child(2){
         opacity: 0;
@@ -286,7 +286,7 @@ footer {
      .nav-menu{
          position: fixed;
          left: -100%;
-         top: 69px;
+         top: 67px;
          gap: 0;
          border-radius: 0 0 20px 20px;
          background-color: #000000;
@@ -305,7 +305,7 @@ footer {
  
      header {
          position: fixed;
-         margin-top: -310px;
+         margin-top: -311px;
          width: 100%;
      }
  
@@ -365,7 +365,7 @@ footer {
 
     .container {
         margin-top: 300px;
-        margin-bottom: 100px;
+        margin-bottom: 60px;
     }
 }
 /*RESPONSIVO - FORMULÁRIO*/

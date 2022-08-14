@@ -174,7 +174,7 @@ a{
 @media (max-width:768px){
    .hamburguer{
        display: block;
-       margin-top: -4px;
+       margin-top: -1x;
    }
    .hamburguer.active .bar:nth-child(2){
        opacity: 0;
@@ -188,7 +188,7 @@ a{
     .nav-menu{
         position: fixed;
         left: -100%;
-        top: 68px;
+        top: 67px;
         gap: 0;
         border-radius: 0 0 20px 20px;
         background-color: #000000;
@@ -211,7 +211,7 @@ a{
 
     header {
         position: fixed;
-        margin-top: -250px;
+        margin-top: -254px;
         width: 100%;
     }
 
@@ -222,6 +222,7 @@ a{
 
     .sobreNos {
         margin-bottom: -325px;
+        margin-bottom: -300px;
     }
 
     .corporativo {
