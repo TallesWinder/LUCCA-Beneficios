@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: url(/img/the-polygon-1562743.jpg);
+    background-size: cover;
+}
+
+header{
+    background-color: #000000;
+}
+
+/* li{
+    list-style: none;
+} */
+
+a{
+    color:#EE670B;
+}
+
+.navbar{
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 34px;
+}
+
+.logo{
+    width: 400px;
+    margin-top: 8px;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-top: -1px;
+}
+
+.nav-link{
+    transition: 0.5s ease;
+    font-size: 17px;
+}
+
+.nav-link2 {
+    background-color:#EE670B;
+    padding: 8px;
+    color: #F4C303;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s ease;
+    font-size: 17px;
+    transition: 0.6s ease-in-out;
+}
+
+.nav-link2:hover {
+    background-color: #F4C303;
+    color: #EE670B;
+    transition: 0.6s ease-in-out;
+}
+
+.nav-link:hover{
+    color: #F4C303;
+}
+
+.hamburguer{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 2px;
+    margin: 5px auto;
+    background: #F4C303;
+    transition: all 0.3s ease-in-out;
+}
+
+.cofirmacao {
+    width: 600px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    margin-left: 380px;
+}
+
+.imagemConfirmacao {
+    width: 300px;
+    margin-left: 40px;
+}
+
+/*FOOTER*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+}
+
+.containerPrincipal {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.iconesSociais {
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.div1{
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.div2{
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.div3{ 
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.titulo{
+    color: #EE670B;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.paragrafo {
+    color: #F4C303;
+    font-size: 14px;
+}
+/*FOOTER*/
+
+
+
+/*RESPONSIVO*/
+@media (max-width:768px){
+    .hamburguer{
+        display: block;
+    }
+    .hamburguer.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburguer.active .bar:nth-child(1){
+     transform: translateY(8px) rotate(45deg);
+     }
+     .hamburguer.active .bar:nth-child(3){
+         transform: translateY(-8px) rotate(-45deg);
+     }
+     .nav-menu{
+         position: fixed;
+         left: -100%;
+         top: 60px;
+         gap: 0;
+         border-radius: 0 0 20px 20px;
+         background-color: #000000;
+         text-align: center;
+         flex-direction: column;
+         width: 100%;
+         transition: 0.3s;
+         margin-top: 30px;
+     }
+
+     .nav-item{
+         margin: 16px 0;
+     }
+
+     .nav-menu.active{
+         left: 0;
+     }
+ 
+     .navbar {
+         margin-top: 280px;
+     }
+ 
+     header {
+         position: fixed;
+         margin-top: -580px;
+         width: 100%;
+     }
+ 
+     .caixaTexto {
+         padding: 10px;
+     }
+ 
+     .tituloHome {
+         margin-top: 208px;
+     }
+
+     .botaoProdutos {
+        margin-left: 175px;
+     }
+ 
+     .divVideo {
+        margin-bottom: 30px;
+     }
+
+     .cofirmacao {
+        margin-top: 300px;
+        margin-left: 15px;
+        width: 450px;
+    }
+ }
+
+ /*RESPONSIVO FOOTER*/
+@media (max-width:768px){
+
+    footer {
+        width: 100%;
+        height: 100%;
+    }
+
+    .containerPrincipal {
+        background-color: #000;
+        width: 100%;
+        height: 100%;
+    }
+
+    .titulo{
+        margin-bottom: 10px;
+    }
+
+    .div1{
+        height: 40%;
+        margin-bottom: 10px;
+    }
+    
+    .div2{
+       
+        margin-top: 40px;
+    }
+
+    .div3{
+        margin-top: -30px;
+    }
+ }
+/*RESPONSIVO FOOTER*/

@@ -13,69 +13,11 @@ body {
  background: url(/img/the-polygon-1562743.jpg);
  background-size:cover;
 }
-/* 
-header{
-    background-color: #000000;
-}
 
-a{
-    color:#EE670B;
-}
-
-.navbar{
-    min-height: 70px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 34px;
-}
-
-.logo{
-    width: 60%;
-    margin-top: 10px;
-}
-
-.nav-menu{
-    display: flex;
-    align-items: center;
-    gap: 60px;
-}
-
-.nav-link{
-    transition: 0.5s ease;
-    font-size: 17px;
-   
-}
-
-.nav-link:hover{
-    color: #F4C303;
-}
-
-.nav-link2 {
-    background-color:#EE670B;
-    padding: 8px;
-    color: #F4C303;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: 0.6s ease-in-out;
-    font-size: 17px;
-}
-
-.nav-link2:hover {
-    background-color: #F4C303;
-    color: #EE670B;
-    transition: 0.9s;
-    font-size: 17px;
-    transition: 0.6s ease-in-out;
-} */
 
 header{
     background-color: #000000;
 }
-
-/* li{
-    list-style: none;
-} */
 
 a{
     color:#EE670B;
@@ -152,6 +94,7 @@ a{
     width: 500px;
     margin-top: 60px;
     padding: 10px;
+    margin-bottom: -110px;
 }
 
 .sobre {
