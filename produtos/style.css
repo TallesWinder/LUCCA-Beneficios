@@ -297,7 +297,8 @@ footer {
     }
 
     .sobre {
-       margin-bottom: 20px;
+       margin-bottom: -20px;
+       margin-top: 30px;
     }
 
     .sobreNos {
@@ -315,7 +316,7 @@ footer {
         flex-wrap: wrap;
         margin-left: 95px;
         margin-bottom: 40px;
-        margin-top: 180px;
+        margin-top: 200px;
         text-align: center;
     }
 
