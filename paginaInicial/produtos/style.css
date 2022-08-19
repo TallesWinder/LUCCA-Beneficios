@@ -4,19 +4,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
     list-style: none;
     text-decoration: none;
 }
 
 body {
- background: url(/img/the-polygon-1562743.jpg);
+ background: url(/paginaInicial/img/the-polygon-1562743.jpg);
  background-size:cover;
+
 }
 
 header{
     background-color: #000000;
 }
+
 
 a{
     color:#EE670B;
@@ -32,18 +35,23 @@ a{
 
 .logo{
     width: 400px;
-    margin-top: 8px;
+    margin-top: 5px;
 }
 
 .nav-menu{
     display: flex;
     align-items: center;
     gap: 60px;
+    margin-top: -4px;
 }
 
 .nav-link{
     transition: 0.5s ease;
     font-size: 17px;
+}
+
+.nav-link:hover{
+    color: #F4C303;
 }
 
 .nav-link2 {
@@ -52,26 +60,21 @@ a{
     color: #F4C303;
     border-radius: 5px;
     font-weight: bold;
-    transition: 0.5s ease;
-    font-size: 17px;
     transition: 0.6s ease-in-out;
+    font-size: 17px;
 }
 
 .nav-link2:hover {
     background-color: #F4C303;
     color: #EE670B;
+    transition: 0.9s;
     transition: 0.6s ease-in-out;
-}
-
-.nav-link:hover{
-    color: #F4C303;
 }
 
 .hamburguer{
     display: none;
     cursor: pointer;
 }
-
 .bar{
     display: block;
     width: 28px;
@@ -86,33 +89,71 @@ a{
    display: flex; 
    justify-content: space-around;
    flex-wrap: wrap;
+   margin-bottom: -40px;
 }
 
 .sobreNos {
-    height: 900px;
-    width: 500px;
+    height: 800px;
     margin-top: 60px;
-    padding: 10px;
-    margin-bottom: -110px;
+    margin-bottom: 60px;
+    padding: 20px;
+    width: 500px;
+    margin-left: 30px;
+}
+
+.divTitulo {
+    margin-top: 50px;
+    margin-bottom: -20px;
 }
 
 .sobre {
-    margin-bottom: 30px;
     color: #000;
-    font-size: 30px;
+    margin-bottom: 20px;
+    font-size: 30PX;
+    line-height: 25px;
 }
 
 .historia {
-    line-height: 30px;
+    line-height: 20px;
     color: #000;
     font-size: 18px;
 }
 
 .corporativo{
     width: 400px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
+.cartoesSecretos{
+    display: none;
+}
+
+/*CARROSEL*/
+.cartao {
+    width: 300px;
+    border-radius: 15px;
+}
+
+.carrosel1 {
+    width: 300px;
+    height: 533.33px;
+    overflow: hidden;
+    margin-top: 150px;
+    margin-right: 30px;
+}
+
+.carrosel1 .carrosel2 {
+    display: flex;
+    list-style: none;
+    width: 1200px;
+    height: 533.33px; 
+}
+
+.carrosel1 .carrosel3 {
+    position:relative;
+    animation: slide 15s infinite ease-out;
+}
+/*CARROSEL*/
 
 footer {
     width: 100%;
@@ -169,9 +210,41 @@ footer {
 }
 
 @media (max-width:768px){
+
+    footer {
+        width: 100%;
+        height: 100%;
+    }
+
+    .containerPrincipal {
+        background-color: #000;
+        width: 100%;
+        height: 100%;
+    }
+
+    .titulo{
+        margin-bottom: 10px;
+    }
+
+    .div1{
+        height: 40%;
+        margin-bottom: 10px;
+    }
+    
+    .div2{
+       
+        margin-top: 40px;
+    }
+
+    .div3{
+        margin-top: -30px;
+    }
+ } 
+
+@media (max-width:768px){
    .hamburguer{
        display: block;
-       margin-top: -1x;
+       margin-top: 9px;
    }
    .hamburguer.active .bar:nth-child(2){
        opacity: 0;
@@ -195,52 +268,90 @@ footer {
         transition: 0.3s;
         margin-top: 30px;
     }
+
     .nav-item{
         margin: 16px 0;
     }
+
     .nav-menu.active{
         left: 0;
     }
 
-    .navbar {
-        margin-top: 19px;
-    }
-
     header {
         position: fixed;
-        margin-top: -254px;
         width: 100%;
+        height: 100px;
+        margin-top: -243px;
+    }
+
+    .logo {
+        margin-top: 16px;
     }
 
     .secao {
         margin-top: 240px;
-        margin-bottom: 180px;
+     }
+
+    .corporativo{
+        margin-left: 22px;
+    }
+
+    .sobre {
+       margin-bottom: -20px;
+       margin-top: 30px;
     }
 
     .sobreNos {
-        margin-bottom: -325px;
-        margin-bottom: -300px;
+        margin-bottom: -100px;
+        display: none;
     }
 
-    .corporativo {
-        margin-left: 30px;
+    .carrosel1 {
+       display: none;
     }
 
-    .div1{
-        height: 40%;
+    .cartoesSecretos {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-left: 95px;
+        margin-bottom: 40px;
+        margin-top: 200px;
+        text-align: center;
+    }
+
+    .cartoesSecretos2 {
+        width: 300px;
         margin-bottom: 10px;
-    }
-    
-    .div2{
-       
-        margin-top: 40px;
+        border-radius: 15px;
     }
 
-    .div3{
-        margin-top: -30px;
+    .historia{
+        width: 300px;
+        text-align: justify;
     }
 
-    .containerPrincipal {
-        height: 115vh;
+    .divTitulo {
+        width: 400px;
+        margin-bottom: -120px;
+        margin-left: 65px;
     }
+      
+}
+
+/*CARROSEL*/
+@keyframes slide {
+    0% {left: 0px;}
+    20%{left: 0px;}
+
+    30%{left: -300px;}  
+    40%{left: -300px;}  
+
+    50%{left: -600px;}  
+    60%{left: -600px;}  
+
+    70%{left: -900px;}  
+    90%{left: -900px;}  
+
+    100%{left: 0px;}
 }
